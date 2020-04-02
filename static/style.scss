@@ -1,0 +1,60 @@
+
+.navbar-inner {
+    background-color:transparent;
+}
+
+.titulo
+{
+  text-align: center;
+  align-self: center;
+}
+
+.navbar .navbar-nav {
+  font-family: lucida !important;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#tsemblanza {
+  margin-left: 10%;
+  font-family: lucida;
+}
+
+#semblanza {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: lucida;
+  font-size: 22px;
+  text-align-last: justify;
+}
+
+#cv {
+  background-color: white;
+}
+
+#imgcv {
+  position: fixed;
+  overflow-y: auto;
+}
+
+h5, h2, h1 {
+  font-family: lucida;
+}
+
+.header {
+  font-weight: bold;
+}
+
+%text {
+  font-family: lucida;
+}
+
+table {
+  @extend %text;
+  color: black;
+}

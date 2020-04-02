@@ -20,6 +20,15 @@
   width: 50%;
 }
 
+@media screen and (max-width: 800px)  {
+  .center {
+    display: block
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+}
+
 #tsemblanza {
   margin-left: 10%;
   font-family: lucida;
